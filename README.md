@@ -4,6 +4,8 @@ Unity Text Editor
 Demonstration: https://www.youtube.com/watch?v=cYYb6Kw7qkI&feature=youtu.be
 
 [ENG]
+
+
 Tired of your notebook? Tired of always opening a folder with a project and editing something quickly? then this plugin is for you!
 
 Installation:
@@ -15,6 +17,8 @@ Installation:
 
 
 [RUS]
+
+
 Надоел блокнот? устали всё время открывать папку проектом и редактировать что то по быстрому? тогда этот плагин для вас! 
 
 Установка:
