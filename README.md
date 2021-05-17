@@ -25,6 +25,8 @@ Installation:
 1. Скачайте или клонируйте репозиторий.
 2. Добавьте в свой проект.
 3. Кликните в редакторе "Window/Unity Text Editor" или щёлкните на любой файл  по правой кнопкой мышки и выберите "Open to Unity Text Editor"
+
+
 ![](image/edit.jpg?raw=false)
 
 
