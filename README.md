@@ -1,6 +1,6 @@
 # Unity-Text-Editor
 Unity Text Editor
 
-![Unity Text Editor](https://github.comARtronClassicStudio/Unity-Text-Editor/blob/main/ScreenShots/edit.PNG?raw=false)
+(https://github.comARtronClassicStudio/Unity-Text-Editor/blob/main/ScreenShots/edit.PNG?raw=false)
 
 Demonstration: https://www.youtube.com/watch?v=cYYb6Kw7qkI&feature=youtu.be
