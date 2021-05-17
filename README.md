@@ -11,6 +11,9 @@ Installation:
 2. Add to your project.
 3. Click in the editor "Window/Unity Text Editor" or right-click on any file and select "Open to Unity Text Editor"
 ![](image/edit.jpg?raw=false)
+
+
+
 [RUS]
 Надоел блокнот? устали всё время открывать папку проектом и редактировать что то по быстрому? тогда этот плагин для вас! 
 
