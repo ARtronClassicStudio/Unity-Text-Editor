@@ -1,6 +1,3 @@
-/*
-
-*/
 using UnityEngine;
 using System.IO;
 using System;
@@ -38,7 +35,7 @@ namespace UnityEditor
             GetWindow(typeof(UnityTextEditor), false, "Unity Text Editor", true);
         }
 
-        [MenuItem("Assets/Open to Unity Text Editor")]
+        [MenuItem("Assets/Text Editor/Open to Unity Text Editor")]
         public static void Open()
         {
             if (File.Exists(AssetDatabase.GetAssetPath(Selection.activeObject)))
@@ -55,7 +52,7 @@ namespace UnityEditor
         }
 
 
-        [MenuItem("Assets/Open to Notepad")]
+        [MenuItem("Assets/Text Editor/Open to Notepad")]
         public static void OpenNotepad()
         {
             if (File.Exists(AssetDatabase.GetAssetPath(Selection.activeObject)))
@@ -69,6 +66,23 @@ namespace UnityEditor
                 EditorUtility.DisplayDialog("Warrning", "No file selected!", "OK");
             }
         }
+
+
+        [MenuItem("Assets/Text Editor/Open to Notepad++")]
+        public static void OpenNotepadPlus()
+        {
+            if (File.Exists(AssetDatabase.GetAssetPath(Selection.activeObject)))
+            {
+                
+                Process.Start("notepad++.exe",'"'+ AssetDatabase.GetAssetPath(Selection.activeObject)+'"');
+
+            }
+            else
+            {
+                EditorUtility.DisplayDialog("Warrning", "No file selected!", "OK");
+            }
+        }
+
 
         private void LoadingVariables()
         {
