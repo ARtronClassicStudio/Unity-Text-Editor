@@ -4,6 +4,7 @@
 using UnityEngine;
 using System.IO;
 using System;
+using System.Diagnostics;
 
 namespace UnityEditor
 {
@@ -53,6 +54,21 @@ namespace UnityEditor
             }
         }
 
+
+        [MenuItem("Assets/Open to Notepad")]
+        public static void OpenNotepad()
+        {
+            if (File.Exists(AssetDatabase.GetAssetPath(Selection.activeObject)))
+            {
+
+                Process.Start("notepad.exe", "/a " + AssetDatabase.GetAssetPath(Selection.activeObject));
+
+            }
+            else
+            {
+                EditorUtility.DisplayDialog("Warrning", "No file selected!", "OK");
+            }
+        }
 
         private void LoadingVariables()
         {
