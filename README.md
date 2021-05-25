@@ -15,6 +15,10 @@ Installation:
 ![](image/edit.jpg?raw=false)
 
 
+[Update]:
+Added the ability to open Notepad and Notepad++
+![](image/edit2.PNG?raw=false)
+
 
 [RUS]
 
@@ -32,4 +36,7 @@ Installation:
 ![](image/edit.jpg?raw=false)
 
 
+[Обновление]:
+Добавлена возможность открывать Notepad и Notepad++
+![](image/edit2.PNG?raw=false)
 
